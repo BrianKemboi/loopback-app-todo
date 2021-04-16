@@ -4,9 +4,10 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'db',
   connector: 'mongodb',
-  url: '',
-  host: '',
-  port: 0,
+  url:
+    'mongodb+srv://touchinspiration:touch12345@gettingstartedcluster.yhs6c.gcp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+  host: 'gettingstartedcluster.yhs6c.gcp.mongodb.net',
+  port: 27017,
   user: 'touchinspiration',
   password: 'touch12345',
   database: 'myFirstDatabase',
